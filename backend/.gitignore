@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Local database and encrypted store. `data/.dev-secrets.json` holds the dev
+# encryption key — it must never be committed.
+legallens.db
+legallens.db-wal
+legallens.db-shm
+data/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
